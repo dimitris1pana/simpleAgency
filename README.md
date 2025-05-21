@@ -39,7 +39,7 @@ A lightweight, interactive weather chatbot built with **Gradio**, **Transformers
 ### 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/agentic-weather.git
+git clone https://github.com/dimitris1pana/simpleAgency.git
 cd agentic-weather
 
 pip install transformers gradio python-dotenv requests torch
