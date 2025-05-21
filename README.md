@@ -5,16 +5,15 @@ A lightweight, interactive weather chatbot built with **Gradio**, **Transformers
 ---
 
 ## 📁 Project Structure
-
-agentic-weather/
-│
-├── agentic_weather.py             # Gradio interface for user interaction
-├── llmodel.py                     # Logic for LLM prompting and decision routing
-├── weatherfunctionality.py        # Weather data retrieval via OpenWeatherMap API
-├── recommendfunctionality.py      # Rule-based suggestion engine
-├── .env                           # (Not committed) add your API keys
-└── README.md                      # This file
-
+```
+.
+├── agentic_weather.py         # Gradio interface for user interaction
+├── llmodel.py                 # Logic for LLM prompting and decision routing
+├── weatherfunctionality.py    # Weather data retrieval via OpenWeatherMap API
+├── recommendfunctionality.py  # Rule-based suggestion engine
+├── .env                      # (Not committed) add your API keys
+└── README.md                 # This file
+```
 ---
 
 ## 🚀 How It Works
