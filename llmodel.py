@@ -26,7 +26,7 @@ def agent_response(user_input):
     # Fall back to model if user input isn't explicit
     
     prompt = (
-        f"You are an assistant, respond politely and help me with the weather{user_input}"
+        f"You are an assistant, respond politely and help me with the weather. {user_input}"
     )
 
     result = pipe(prompt)

@@ -4,7 +4,7 @@ from llmodel import agent_response
 
 
     
-    # Gradio UI 
+    # Gradio UI --> also querry chatgpt for best practices of gradio - 
     # https://www.gradio.app/guides/quickstart
 with gr.Blocks() as demo:
     gr.Markdown("## 🧠 Agentic Weather Assistant (Hugging Face Model)")
