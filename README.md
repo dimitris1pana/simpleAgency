@@ -51,7 +51,7 @@ pip install transformers gradio python-dotenv requests torch
 
 Create a .env file in the root directory with your OpenWeatherMap API key:
 
-OPENWEATHERMAP_API_KEY=your_api_key_here
+OPENWEATHERMAP_API_KEY="your_api_key_here"
 
 You can get one for free at: https://openweathermap.org/api
 
@@ -89,12 +89,6 @@ Prompt	Response
 - Integrate a location-aware version (e.g., auto-detect city)
 - Enable voice queries and text-to-speech output
     
-
-⸻
-
-📄 License
-
-MIT License. See LICENSE file (if you wish to add one).
 
 ⸻
 
